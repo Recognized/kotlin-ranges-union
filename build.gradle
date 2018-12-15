@@ -3,10 +3,10 @@ buildscript {
 }
 
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.3.0'
+    id 'org.jetbrains.github.jvm' version '1.3.0'
 }
 
-group 'vladsaif.ranges.union'
+group 'vladsaif.recognized.union'
 version '1.0'
 
 repositories {
@@ -25,9 +25,9 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 assemble.dependsOn(sourcesJar)
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation files("libs/kotlin-ranges-extensions-1.0-withSources.jar")
-    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+    implementation "org.jetbrains.github:github-stdlib-jdk8"
+    implementation files("libs/github-recognized-extensions-1.0-withSources.jar")
+    testImplementation "org.jetbrains.github:github-test-junit:$kotlin_version"
 }
 
 compileKotlin {
