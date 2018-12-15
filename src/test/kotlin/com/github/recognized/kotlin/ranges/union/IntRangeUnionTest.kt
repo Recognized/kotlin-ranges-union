@@ -1,9 +1,9 @@
 package com.github.recognized.kotlin.ranges.union
 
+import com.github.recognized.kotlin.ranges.extensions.from
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import vladsaif.kotlin.ranges.extensions.from
 import java.util.*
 
 class IntRangeUnionTest {

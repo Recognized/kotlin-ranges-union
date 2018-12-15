@@ -1,6 +1,6 @@
 package com.github.recognized.kotlin.ranges.union
 
-import vladsaif.kotlin.ranges.extensions.*
+import com.github.recognized.kotlin.ranges.extensions.*
 import kotlin.math.max
 import kotlin.math.min
 

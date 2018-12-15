@@ -1,7 +1,7 @@
 package com.github.recognized.kotlin.ranges.union
 
+import com.github.recognized.kotlin.ranges.extensions.from
 import org.junit.Test
-import vladsaif.kotlin.ranges.extensions.from
 import java.util.*
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
